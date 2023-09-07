@@ -1,27 +1,3 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyBF9WAluTy-jMk5vhVCvbuSmoRgGz_X8WU",
-  authDomain: "convlead1.firebaseapp.com",
-  databaseURL: "https://convlead1-default-rtdb.firebaseio.com",
-  projectId: "convlead1",
-  storageBucket: "convlead1.appspot.com",
-  messagingSenderId: "800224024488",
-  appId: "1:800224024488:web:ae482dd763603822ccef9d",
-  measurementId: "G-FFS5G7676Y"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-
-
 const emailInput = document.getElementById("email");
 const enviarButton = document.getElementById("enviar");
 const compartilharButton = document.getElementById("compartilhar");
